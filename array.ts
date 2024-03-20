@@ -62,3 +62,11 @@ numbers = [1, 2, 3, 4, 5];
 const indexOfThree: number = numbers.indexOf(3);
 
 console.log(indexOfThree); // Output: 2
+
+// Declaring a tuple
+let myTuple: [number, string, boolean, object];
+
+// Initializing the tuple
+myTuple = [1, "Hello", true, { key: "value"}];
+
+myTuple[3] = { newKey: "newValue" };
